@@ -1,4 +1,4 @@
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.1.
+
 https://or21321.github.io/Countries-Angular/
 
 <h1>Countries-App</h1>
