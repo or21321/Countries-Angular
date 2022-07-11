@@ -1,5 +1,5 @@
 
-https://or21321.github.io/Countries-Angular/
+Can be viewed here: https://or21321.github.io/Countries-Angular/
 
 <h1>Countries-App</h1>
 <p>#Work in progess - not finished & fully styled yet.</p>
