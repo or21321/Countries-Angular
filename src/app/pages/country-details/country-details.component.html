@@ -1,0 +1,7 @@
+<section *ngIf="country" class="country-details">
+    <button (click)="back()">Back</button>
+    <div class="content">
+        <img [src]="country.flagUrl">
+        <h4>{{country.name}}</h4>
+    </div>
+</section>

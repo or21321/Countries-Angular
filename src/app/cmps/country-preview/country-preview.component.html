@@ -1,0 +1,12 @@
+<li *ngIf="country" class="country-preview" (contextmenu)="onRightClick($event)">
+    <!-- <div class="flag-img" [style.backgroundImage]="country?.imgUrl"></div> -->
+    <img class="flag-img" [src]="country?.flagUrl" />
+    <h3>{{country?.name}}</h3>
+    <p>Population: {{country?.population}}</p>
+    <p>Region: {{country?.region}}</p>
+    <p>Capital: {{country?.capital}}</p>
+
+    <options-popup (onSelectCountry)="selectCountry()" (onClose)="isOptionsOpen=false" *ngIf="isOptionsOpen"
+        (onRemove)="onRemove.emit(country._id)" (onEdit)="onEdit.emit(country._id)">
+    </options-popup>
+</li>

@@ -1,0 +1,17 @@
+@import "../../styles/setup/variables";
+
+.country-app {
+    // background-color: $very-light-gray;
+    min-height: 100%;
+    grid-column: 1 / -1;
+
+    .background-container {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 50px;
+        left: 0;
+        background-color: $very-light-gray;
+        z-index: -1;
+    }
+}

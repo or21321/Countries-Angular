@@ -1,0 +1,9 @@
+<div class="modal-wrapper">
+    <form (clickOutside)="closeModal()" *ngIf="countryToEdit" (submit)="submit($event)"
+        class="wrapped-modal country-edit">
+        <input name="name" type="text" placeholder="Name" [(ngModel)]="countryToEdit.name">
+        <input name="capital" type="text" placeholder="Capital" [(ngModel)]="countryToEdit.capital">
+
+        <button>Submit</button>
+    </form>
+</div>

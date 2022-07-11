@@ -1,0 +1,5 @@
+<ul class="country-list reponsive-list">
+  <country-preview *ngFor="let country of countries" [country]="country" (onRemove)="onRemove.emit($event)"
+    (onEdit)="onEdit.emit($event)">
+  </country-preview>
+</ul>

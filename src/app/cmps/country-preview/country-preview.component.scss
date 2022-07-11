@@ -1,0 +1,13 @@
+@import "../../styles/setup/variables";
+
+.country-preview {
+    border-radius: 8px;
+    background-color: $white;
+    box-shadow: 0px 0px 5px 0px #e0e0df;
+    position: relative;
+    
+    .flag-img {
+        height: 100px;
+        // width: 100%;
+    }
+}
